@@ -1,0 +1,622 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1400 900  0    118  Input ~ 0
+video
+Text HLabel 9500 1550 2    118  Input ~ 0
+black_and_sync
+Text HLabel 9400 3900 2    118  Input ~ 0
+burst_pulse
+$Comp
+L 4xxx:4013 U4
+U 3 1 5F16EDFB
+P 2200 7100
+F 0 "U4" H 2430 7146 50  0000 L CNN
+F 1 "CD4013" H 2430 7055 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2200 7100 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 2200 7100 50  0001 C CNN
+	3    2200 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F16FE14
+P 2200 6700
+AR Path="/5F16FE14" Ref="#PWR?"  Part="1" 
+AR Path="/5F1CF562/5F16FE14" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 2200 6550 50  0001 C CNN
+F 1 "+5V" H 2215 6873 50  0000 C CNN
+F 2 "" H 2200 6700 50  0001 C CNN
+F 3 "" H 2200 6700 50  0001 C CNN
+	1    2200 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F170286
+P 2200 7500
+AR Path="/5F170286" Ref="#PWR?"  Part="1" 
+AR Path="/5F1CF562/5F170286" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 2200 7250 50  0001 C CNN
+F 1 "GND" H 2205 7327 50  0000 C CNN
+F 2 "" H 2200 7500 50  0001 C CNN
+F 3 "" H 2200 7500 50  0001 C CNN
+	1    2200 7500
+	1    0    0    -1  
+$EndComp
+Text Notes 3975 5450 0    50   ~ 0
+csync
+$Comp
+L 4xxx:4013 U4
+U 2 1 5F1869C6
+P 3325 7125
+F 0 "U4" H 3325 7606 50  0000 C CNN
+F 1 "CD4013" H 3325 7515 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3325 7125 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 3325 7125 50  0001 C CNN
+	2    3325 7125
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3325 6825
+NoConn ~ 3625 7025
+NoConn ~ 3625 7225
+NoConn ~ 3325 7425
+NoConn ~ 3025 7125
+NoConn ~ 3025 7025
+$Comp
+L Device:R R14
+U 1 1 5F18EBBC
+P 8500 5100
+F 0 "R14" V 8293 5100 50  0000 C CNN
+F 1 "10k" V 8384 5100 50  0000 C CNN
+F 2 "lib_fp:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8430 5100 50  0001 C CNN
+F 3 "~" H 8500 5100 50  0001 C CNN
+	1    8500 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 5F18EBC2
+P 8800 5100
+F 0 "C15" V 8548 5100 50  0000 C CNN
+F 1 "0.1u" V 8639 5100 50  0000 C CNN
+F 2 "lib_fp:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 8838 4950 50  0001 C CNN
+F 3 "~" H 8800 5100 50  0001 C CNN
+	1    8800 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR049
+U 1 1 5F18EBC8
+P 9200 4700
+F 0 "#PWR049" H 9200 4550 50  0001 C CNN
+F 1 "+5V" H 9215 4873 50  0000 C CNN
+F 2 "" H 9200 4700 50  0001 C CNN
+F 3 "" H 9200 4700 50  0001 C CNN
+	1    9200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5F18EBCE
+P 9200 4900
+F 0 "R15" H 9270 4946 50  0000 L CNN
+F 1 "12k" H 9270 4855 50  0000 L CNN
+F 2 "lib_fp:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9130 4900 50  0001 C CNN
+F 3 "~" H 9200 4900 50  0001 C CNN
+	1    9200 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5F18EBD4
+P 9200 5300
+F 0 "R16" H 9270 5346 50  0000 L CNN
+F 1 "1.5k" H 9270 5255 50  0000 L CNN
+F 2 "lib_fp:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9130 5300 50  0001 C CNN
+F 3 "~" H 9200 5300 50  0001 C CNN
+	1    9200 5300
+	-1   0    0    1   
+$EndComp
+Text GLabel 9250 5600 2    50   Input ~ 0
+1.25v
+$Comp
+L 74xx:74HC86 U?
+U 3 1 5F18EBE4
+P 7800 5100
+AR Path="/5F1A9B3D/5F18EBE4" Ref="U?"  Part="1" 
+AR Path="/5F18EBE4" Ref="U?"  Part="1" 
+AR Path="/5F1CF562/5F18EBE4" Ref="U7"  Part="3" 
+F 0 "U7" H 7800 5425 50  0000 C CNN
+F 1 "74HC86" H 7800 5334 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 7800 5100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 7800 5100 50  0001 C CNN
+	3    7800 5100
+	1    0    0    -1  
+$EndComp
+Text Notes 5275 5375 0    50   ~ 0
+alternating_lines
+Text HLabel 9900 5100 2    118  Input ~ 0
+burst_signal
+Text HLabel 1550 4625 0    118  Input ~ 0
+crystal
+Wire Wire Line
+	1550 4625 6300 4625
+Wire Wire Line
+	6300 4625 6300 5000
+$Comp
+L power:GND #PWR?
+U 1 1 5F1F08B4
+P 6500 5750
+AR Path="/5F1F08B4" Ref="#PWR?"  Part="1" 
+AR Path="/5F1CF562/5F1F08B4" Ref="#PWR046"  Part="1" 
+F 0 "#PWR046" H 6500 5500 50  0001 C CNN
+F 1 "GND" H 6505 5577 50  0000 C CNN
+F 2 "" H 6500 5750 50  0001 C CNN
+F 3 "" H 6500 5750 50  0001 C CNN
+	1    6500 5750
+	1    0    0    -1  
+$EndComp
+Text Notes 6750 5800 0    50   ~ 0
+ntsc / pal selection
+$Comp
+L power:GND #PWR?
+U 1 1 5F274284
+P 4700 5850
+AR Path="/5F274284" Ref="#PWR?"  Part="1" 
+AR Path="/5F1CF562/5F274284" Ref="#PWR042"  Part="1" 
+F 0 "#PWR042" H 4700 5600 50  0001 C CNN
+F 1 "GND" H 4705 5677 50  0000 C CNN
+F 2 "" H 4700 5850 50  0001 C CNN
+F 3 "" H 4700 5850 50  0001 C CNN
+	1    4700 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5F2C1772
+P 3700 2350
+F 0 "R9" H 3575 2350 50  0000 C CNN
+F 1 "680k" H 3525 2450 50  0000 C CNN
+F 2 "lib_fp:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3630 2350 50  0001 C CNN
+F 3 "~" H 3700 2350 50  0001 C CNN
+	1    3700 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 5F2C270C
+P 3350 2350
+F 0 "C13" H 3150 2350 50  0000 C CNN
+F 1 "0.1u" H 3150 2475 50  0000 C CNN
+F 2 "lib_fp:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 3388 2200 50  0001 C CNN
+F 3 "~" H 3350 2350 50  0001 C CNN
+	1    3350 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F2C4D45
+P 3700 2500
+AR Path="/5F2C4D45" Ref="#PWR?"  Part="1" 
+AR Path="/5F1CF562/5F2C4D45" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 3700 2250 50  0001 C CNN
+F 1 "GND" H 3705 2327 50  0000 C CNN
+F 2 "" H 3700 2500 50  0001 C CNN
+F 3 "" H 3700 2500 50  0001 C CNN
+	1    3700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F2C57A5
+P 3350 2500
+AR Path="/5F2C57A5" Ref="#PWR?"  Part="1" 
+AR Path="/5F1CF562/5F2C57A5" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 3350 2250 50  0001 C CNN
+F 1 "GND" H 3355 2327 50  0000 C CNN
+F 2 "" H 3350 2500 50  0001 C CNN
+F 3 "" H 3350 2500 50  0001 C CNN
+	1    3350 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F2C8721
+P 4550 2500
+AR Path="/5F2C8721" Ref="#PWR?"  Part="1" 
+AR Path="/5F1CF562/5F2C8721" Ref="#PWR041"  Part="1" 
+F 0 "#PWR041" H 4550 2250 50  0001 C CNN
+F 1 "GND" H 4555 2327 50  0000 C CNN
+F 2 "" H 4550 2500 50  0001 C CNN
+F 3 "" H 4550 2500 50  0001 C CNN
+	1    4550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F2C8B7F
+P 4550 1800
+AR Path="/5F2C8B7F" Ref="#PWR?"  Part="1" 
+AR Path="/5F1CF562/5F2C8B7F" Ref="#PWR040"  Part="1" 
+F 0 "#PWR040" H 4550 1650 50  0001 C CNN
+F 1 "+5V" H 4475 1975 50  0000 C CNN
+F 2 "" H 4550 1800 50  0001 C CNN
+F 3 "" H 4550 1800 50  0001 C CNN
+	1    4550 1800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5050 2300
+$Comp
+L power:+5V #PWR?
+U 1 1 5F2CB509
+P 6100 1350
+AR Path="/5F2CB509" Ref="#PWR?"  Part="1" 
+AR Path="/5F1CF562/5F2CB509" Ref="#PWR044"  Part="1" 
+F 0 "#PWR044" H 6100 1200 50  0001 C CNN
+F 1 "+5V" H 6025 1525 50  0000 C CNN
+F 2 "" H 6100 1350 50  0001 C CNN
+F 3 "" H 6100 1350 50  0001 C CNN
+	1    6100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5F2CB8EA
+P 6100 1500
+F 0 "R10" H 5975 1500 50  0000 C CNN
+F 1 "10k" H 5925 1600 50  0000 C CNN
+F 2 "lib_fp:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6030 1500 50  0001 C CNN
+F 3 "~" H 6100 1500 50  0001 C CNN
+	1    6100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5F2CC91F
+P 6550 1800
+F 0 "R11" V 6343 1800 50  0000 C CNN
+F 1 "1k" V 6434 1800 50  0000 C CNN
+F 2 "lib_fp:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6480 1800 50  0001 C CNN
+F 3 "~" H 6550 1800 50  0001 C CNN
+	1    6550 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F2CD17D
+P 7250 1950
+AR Path="/5F2CD17D" Ref="#PWR?"  Part="1" 
+AR Path="/5F1CF562/5F2CD17D" Ref="#PWR048"  Part="1" 
+F 0 "#PWR048" H 7250 1700 50  0001 C CNN
+F 1 "GND" H 7255 1777 50  0000 C CNN
+F 2 "" H 7250 1950 50  0001 C CNN
+F 3 "" H 7250 1950 50  0001 C CNN
+	1    7250 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5F549749
+P 6900 1950
+F 0 "R12" V 6800 1950 50  0000 C CNN
+F 1 "1k (or 1.2k maybe)" V 7000 1950 50  0000 C CNN
+F 2 "lib_fp:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6830 1950 50  0001 C CNN
+F 3 "~" H 6900 1950 50  0001 C CNN
+	1    6900 1950
+	0    1    1    0   
+$EndComp
+NoConn ~ 5050 2100
+$Comp
+L Switch:SW_SPDT SW2
+U 1 1 61753291
+P 6950 5500
+F 0 "SW2" H 6950 5175 50  0000 C CNN
+F 1 "SPDT_slide" H 6950 5266 50  0000 C CNN
+F 2 "lib_fp:spdt_slide_switch_small_tayda" H 6950 5500 50  0001 C CNN
+F 3 "~" H 6950 5500 50  0001 C CNN
+	1    6950 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9250 5600 9200 5600
+Wire Wire Line
+	9200 5600 9200 5450
+Wire Wire Line
+	9900 5100 9200 5100
+Wire Wire Line
+	9200 5150 9200 5100
+Connection ~ 9200 5100
+Wire Wire Line
+	9200 5100 8950 5100
+Wire Wire Line
+	9200 5100 9200 5050
+Wire Wire Line
+	9200 4750 9200 4700
+Wire Wire Line
+	8350 5100 8100 5100
+Wire Wire Line
+	7500 5000 6300 5000
+Wire Wire Line
+	7150 5500 7150 5200
+Wire Wire Line
+	7150 5200 7500 5200
+$Comp
+L 4xxx:4013 U4
+U 1 1 5F16E09B
+P 4700 5500
+F 0 "U4" H 4925 5975 50  0000 C CNN
+F 1 "CD4013" H 4925 5875 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 4700 5500 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 4700 5500 50  0001 C CNN
+	1    4700 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 5400 5000 5400
+Wire Wire Line
+	6500 5750 6500 5600
+Wire Wire Line
+	6500 5600 6750 5600
+Wire Wire Line
+	4700 5850 4700 5800
+$Comp
+L power:GND #PWR?
+U 1 1 61785FB3
+P 4500 5000
+AR Path="/61785FB3" Ref="#PWR?"  Part="1" 
+AR Path="/5F1CF562/61785FB3" Ref="#PWR039"  Part="1" 
+F 0 "#PWR039" H 4500 4750 50  0001 C CNN
+F 1 "GND" H 4505 4827 50  0000 C CNN
+F 2 "" H 4500 5000 50  0001 C CNN
+F 3 "" H 4500 5000 50  0001 C CNN
+	1    4500 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 5000 4500 4900
+Wire Wire Line
+	4500 4900 4700 4900
+Wire Wire Line
+	4700 4900 4700 5200
+Wire Wire Line
+	4400 5400 4400 4800
+Wire Wire Line
+	4400 4800 5150 4800
+Wire Wire Line
+	5150 4800 5150 5600
+Wire Wire Line
+	5150 5600 5000 5600
+Wire Wire Line
+	4400 5500 3700 5500
+Wire Wire Line
+	3700 5500 3700 3500
+Wire Wire Line
+	3700 3500 5400 3500
+Wire Wire Line
+	1400 900  3150 900 
+Wire Wire Line
+	3150 900  3150 2100
+Wire Wire Line
+	3150 2100 4050 2100
+Wire Wire Line
+	4050 2200 3700 2200
+Wire Wire Line
+	3700 2200 3350 2200
+Connection ~ 3700 2200
+Wire Wire Line
+	5400 2000 5050 2000
+Wire Wire Line
+	5400 2000 5400 3500
+$Comp
+L Video:LM1881 U6
+U 1 1 5F2BED2A
+P 4550 2200
+F 0 "U6" H 4650 2775 50  0000 C CNN
+F 1 "LM1881" H 4750 2650 50  0000 C CNN
+F 2 "lib_fp:DIP-SOIC-8" H 4550 2200 50  0001 C CNN
+F 3 "" H 4550 2200 50  0001 C CNN
+	1    4550 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 1650 6100 1800
+Wire Wire Line
+	6100 1800 6400 1800
+Wire Wire Line
+	7250 1950 7050 1950
+Wire Wire Line
+	6750 1950 6750 1800
+Wire Wire Line
+	6750 1800 6700 1800
+Wire Wire Line
+	6750 1800 8300 1800
+Connection ~ 6750 1800
+Wire Wire Line
+	8300 1800 8300 1550
+Wire Wire Line
+	8300 1550 9500 1550
+$Comp
+L symbol:74HC4538 U5
+U 1 1 618796C4
+P 7050 3700
+F 0 "U5" H 7050 3225 50  0000 C CNN
+F 1 "74HC4538" H 7050 3134 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 7050 3700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4538B.pdf" H 7050 3700 50  0001 C CNN
+	1    7050 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C14
+U 1 1 6188795B
+P 7050 3100
+F 0 "C14" V 7050 3350 50  0000 C CNN
+F 1 "0.1n" V 6950 3350 50  0000 C CNN
+F 2 "lib_fp:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 7088 2950 50  0001 C CNN
+F 3 "~" H 7050 3100 50  0001 C CNN
+	1    7050 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 6188A463
+P 6950 2850
+F 0 "R13" H 6825 2850 50  0000 C CNN
+F 1 "10k" H 6775 2950 50  0000 C CNN
+F 2 "lib_fp:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6880 2850 50  0001 C CNN
+F 3 "~" H 6950 2850 50  0001 C CNN
+	1    6950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV1
+U 1 1 6188DEA0
+P 6550 2700
+F 0 "RV1" H 6481 2746 50  0000 R CNN
+F 1 "20k_pot" H 6481 2655 50  0000 R CNN
+F 2 "lib_fp:Potentiometer_Vertical_Large" H 6550 2700 50  0001 C CNN
+F 3 "~" H 6550 2700 50  0001 C CNN
+	1    6550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61890A88
+P 6550 2550
+AR Path="/61890A88" Ref="#PWR?"  Part="1" 
+AR Path="/5F1CF562/61890A88" Ref="#PWR047"  Part="1" 
+F 0 "#PWR047" H 6550 2400 50  0001 C CNN
+F 1 "+5V" H 6475 2725 50  0000 C CNN
+F 2 "" H 6550 2550 50  0001 C CNN
+F 3 "" H 6550 2550 50  0001 C CNN
+	1    6550 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2700 6950 2700
+Wire Wire Line
+	6950 3000 6950 3100
+Connection ~ 6950 3100
+Wire Wire Line
+	6950 3100 6950 3200
+Wire Wire Line
+	7150 3100 7150 3200
+NoConn ~ 6550 2850
+Wire Wire Line
+	7550 3900 9400 3900
+NoConn ~ 7550 3600
+$Comp
+L power:+5V #PWR?
+U 1 1 618A2B3E
+P 6400 3950
+AR Path="/618A2B3E" Ref="#PWR?"  Part="1" 
+AR Path="/5F1CF562/618A2B3E" Ref="#PWR045"  Part="1" 
+F 0 "#PWR045" H 6400 3800 50  0001 C CNN
+F 1 "+5V" H 6400 3800 50  0000 C CNN
+F 2 "" H 6400 3950 50  0001 C CNN
+F 3 "" H 6400 3950 50  0001 C CNN
+	1    6400 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3950 6400 4000
+Wire Wire Line
+	6400 4000 6550 4000
+$Comp
+L power:GND #PWR?
+U 1 1 618A8986
+P 6050 3850
+AR Path="/618A8986" Ref="#PWR?"  Part="1" 
+AR Path="/5F1CF562/618A8986" Ref="#PWR043"  Part="1" 
+F 0 "#PWR043" H 6050 3600 50  0001 C CNN
+F 1 "GND" H 6055 3677 50  0000 C CNN
+F 2 "" H 6050 3850 50  0001 C CNN
+F 3 "" H 6050 3850 50  0001 C CNN
+	1    6050 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3850 6050 3700
+Wire Wire Line
+	6050 3700 6550 3700
+$Comp
+L symbol:74HC4538 U5
+U 3 1 618B7240
+P 4450 7000
+F 0 "U5" H 4680 7046 50  0000 L CNN
+F 1 "74HC4538" H 4680 6955 50  0000 L CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 4450 7000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4538B.pdf" H 4450 7000 50  0001 C CNN
+	3    4450 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L symbol:74HC4538 U5
+U 2 1 618B8BEA
+P 5650 7000
+F 0 "U5" H 5650 6525 50  0000 C CNN
+F 1 "74HC4538" H 5650 6434 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 5650 7000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4538B.pdf" H 5650 7000 50  0001 C CNN
+	2    5650 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 618BADBA
+P 4450 6500
+AR Path="/618BADBA" Ref="#PWR?"  Part="1" 
+AR Path="/5F1CF562/618BADBA" Ref="#PWR037"  Part="1" 
+F 0 "#PWR037" H 4450 6350 50  0001 C CNN
+F 1 "+5V" H 4465 6673 50  0000 C CNN
+F 2 "" H 4450 6500 50  0001 C CNN
+F 3 "" H 4450 6500 50  0001 C CNN
+	1    4450 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 618BB270
+P 4450 7500
+AR Path="/618BB270" Ref="#PWR?"  Part="1" 
+AR Path="/5F1CF562/618BB270" Ref="#PWR038"  Part="1" 
+F 0 "#PWR038" H 4450 7250 50  0001 C CNN
+F 1 "GND" H 4455 7327 50  0000 C CNN
+F 2 "" H 4450 7500 50  0001 C CNN
+F 3 "" H 4450 7500 50  0001 C CNN
+	1    4450 7500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5150 7000
+NoConn ~ 5150 7100
+NoConn ~ 5150 7300
+NoConn ~ 5550 6500
+NoConn ~ 5750 6500
+NoConn ~ 6150 6900
+NoConn ~ 6150 7200
+Connection ~ 6100 1800
+Wire Wire Line
+	5050 1800 6100 1800
+Wire Wire Line
+	5050 2000 5050 1800
+Connection ~ 5050 2000
+Wire Wire Line
+	5050 2200 5750 2200
+Wire Wire Line
+	5750 2200 5750 3800
+Wire Wire Line
+	5750 3800 6550 3800
+$EndSCHEMATC
