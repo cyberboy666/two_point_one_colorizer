@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name symbol)(type Legacy)(uri ${KIPRJMOD}/lib_sh/symbol.lib)(options "")(descr ""))
+  (lib (name "symbol")(type "Legacy")(uri "${KIPRJMOD}/lib_sh/symbol.lib")(options "")(descr ""))
+  (lib (name "two_point_one_colorizer-rescue")(type "Legacy")(uri "${KIPRJMOD}/two_point_one_colorizer-rescue.lib")(options "")(descr ""))
 )

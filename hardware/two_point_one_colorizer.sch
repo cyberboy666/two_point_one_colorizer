@@ -795,11 +795,6 @@ F 3 "" H 650 5550 50  0001 C CNN
 	1    650  5550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1050 4750 1050 4100
-Connection ~ 1050 4100
-Wire Wire Line
-	1050 4100 1275 4100
 NoConn ~ 1250 5100
 $Comp
 L power:+5V #PWR07
@@ -1124,10 +1119,6 @@ F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 950 5200 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	650  5100 650  4750
-Wire Wire Line
-	650  4750 1050 4750
-Wire Wire Line
 	650  5200 650  5550
 Wire Wire Line
 	1300 5550 1300 5200
@@ -1138,8 +1129,6 @@ Wire Wire Line
 	1800 1700 1800 1550
 Text GLabel 950  4100 0    50   Input ~ 0
 video_in
-Wire Wire Line
-	950  4100 1050 4100
 Text GLabel 2100 6700 2    50   Input ~ 0
 video_in
 Text GLabel 2100 7400 2    50   Input ~ 0
@@ -1191,4 +1180,13 @@ Wire Wire Line
 	2600 7200 1900 7200
 Text Notes 1000 6250 0    79   ~ 0
 SIGNAL_BYPASS
+Wire Wire Line
+	950  4100 1275 4100
+Wire Wire Line
+	650  5100 550  5100
+Wire Wire Line
+	550  5100 550  6600
+Wire Wire Line
+	550  6600 1350 6600
+Connection ~ 1350 6600
 $EndSCHEMATC
