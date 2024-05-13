@@ -111,7 +111,8 @@ follow this link to view the [interactive BOM](https://htmlpreview.github.io/?ht
   
 <details><summary><b>operating guide</b> - start here if you have purchased an assembled unit</summary>
 
-![image](https://github.com/cyberboy666/two_point_one_colorizer/assets/12017938/c2b44c88-30a7-4285-913b-d15ae0f76040)
+![image](https://github.com/cyberboy666/two_point_one_colorizer/assets/12017938/8cc39edb-bcc3-4e1f-a917-d2faea3e45e3)
+
 
 To set up using the circuit plug an active video source into composite video input and a display into composite video output (test input/outputs by toggling signal bypass switch first to ensure they are working as expected)
 
