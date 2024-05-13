@@ -1,0 +1,7 @@
+sku,qty,ref,val,vendor
+490-RCJ-024,2,J2 J5 ,rca,mouser
+595-CD74HC4538E,1,U5 ,74HC4538,mouser
+926-LM1881MX/NOPB,1,U6 ,LM1881,mouser
+595-SN74HC86NE4,1,U7 ,74HC86,mouser
+595-SN74LS123N,2,U9 U10 ,74LS123,mouser
+520-HCU443-20X,1,Y2 ,4.43Mhz_crystal,mouser

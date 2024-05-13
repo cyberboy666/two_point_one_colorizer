@@ -147,6 +147,8 @@
     (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 804bc2b0-6e5f-4663-8351-81c9b8afc8cf))
   (gr_line (start 69.1 105.2) (end 69.1 118.5)
     (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 80aa89fc-2333-44ef-8136-f283a93c16da))
+  (gr_circle (center 69.7 59.5) (end 63.2 59.5)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp 824ef782-8f9c-4d93-8df0-9cb24bc5bc09))
   (gr_line (start 61.8 105.2) (end 69.1 105.2)
     (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 82c58a53-48ce-46be-8f7e-7bbeb0b3bcf7))
   (gr_arc (start 157.65 35.6) (mid 159.25 37.2) (end 157.65 38.8)

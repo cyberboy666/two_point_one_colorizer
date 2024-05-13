@@ -1,0 +1,36 @@
+sku,qty,ref,val,vendor
+A-525,2,C1 C3 ,33p,tayda
+A-531,1,C14 ,100p,tayda
+A-1341,4,C18 C19 C20 C21 ,10p,tayda
+A-4008,13,C2 C5 C6 C7 C8 C9 C10 C11 C12 C13 C15 C16 C17 ,0.1u,tayda
+A-3931,1,C4 ,10u,tayda
+A-615,1,D1 ,1n914,tayda
+A-4118,1,J1 ,Barrel_Jack,tayda
+A-111,1,Q1 ,2N3904,tayda
+A-2193,3,R1 R5 R8 ,75,tayda
+A-2281,1,R12 ,680,tayda
+A-2327,1,R15 ,12k,tayda
+A-2207,2,R17 R18 ,18k,tayda
+A-2284,2,R19 R20 ,22k,tayda
+A-2277,2,R2 R4 ,1m,tayda
+A-2338,2,R23 R24 ,82k,tayda
+A-2203,5,R10 R13 R14 R25 R26 ,10k,tayda
+A-2626,4,R27 R28 R29 R30 ,2.7k,tayda
+A-2188,1,R3 ,5.1k,tayda
+A-2202,3,R16 R33 R35 ,1.5k,tayda
+A-2607,2,R34 R36 ,3.3k,tayda
+A-2245,1,R6 ,100,tayda
+A-2200,4,R7 R11 R31 R32 ,1k,tayda
+A-2192,1,R9 ,680k,tayda
+A-1872,1,RV1 ,20k_pot,tayda
+A-5531,6,RV2 RV3 RV4 RV5 RV6 RV7 ,10k_pot,tayda
+A-1870,2,RV8 RV9 ,5k_pot,tayda
+A-659,2,SW1 SW2 ,SPDT_slide,tayda
+A-4567,2,SW3 SW4 ,SPDT,tayda
+A-4568,1,SW5 ,SW_DPDT_x2,tayda
+A-882,1,U1 ,CD4069,tayda
+A-177,1,U2 ,LM317,tayda
+A-1151,1,U3 ,CD4053,tayda
+A-556,1,U4 ,CD4013,tayda
+A-023,1,U8 ,LM393,tayda
+A-238,1,Y1 ,3.57Mhz_crystal,tayda
