@@ -14,7 +14,8 @@
 
 ## demo video
 
-[coming soon]
+[![image](https://github.com/user-attachments/assets/d14b3012-f0cc-4161-a7cd-8eb7e5f9af00)](https://videos.scanlines.xyz/w/naCDtL88vypcoSo1NTCry6)
+
 
 ## background
 
